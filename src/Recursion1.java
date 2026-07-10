@@ -19,7 +19,7 @@ public class Recursion1 {
     }
     //question:3
     public static void printSum(int i, int n, int sum){
-        if(i == 9){
+        if(i == n){
             sum += i;
             System.out.println(sum);
             return;
